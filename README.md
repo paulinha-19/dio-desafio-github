@@ -2,7 +2,7 @@
 
 Criando Repositório no GitHub Para Compartilhar meu Progresso no bootcamp Eduzz Fullstack Developer
 
-## Atividades
+## Atividades do bootcamp
 - Mentorias
 - Projetos ágeis com SCRUM
 - Lógica de Programação Essencial
