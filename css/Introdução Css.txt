@@ -1,0 +1,64 @@
+
+Seletores - elementos html, classes, id {
+
+propriedade:valor (declaração)
+
+}
+
+IMPORTANTE: no navegador elementos HTML são representados por caixas retangulares, ou seja, box model. 
+E com CSS nós alteramos a aparência dessa caixa (largura, altura, cor de fundo, etc.). 
+Essa caixa é composta por 4 áreas: o conteúdo, o padding, a borda e a margem.
+
+1- Margin: o espaçamento entre os elementos
+
+2- Border: fica em volta do padding e é possivel alterar a cor e estilo da mesma
+
+3- Padding: espaçamento entre borda e conteudo
+
+4- Content: texto, imagem, video
+
+
+Padding e margin
+
+Ps: Ao colocar apenas uma valor, por exemplo, padding:5px, o mesmo é atribuido para todos o lados do elemento, 
+ou seja, para top, right, bottom e left. Se apenas dois, por exemplo, margin: 5px 8px, top e bottom recebe 5px e
+right e left 8px. Se for padding: 2px 4px 5px 8px, cada lado recebe um valor. 
+
+Background
+
+background-color -> muda cor de fundo
+background-image -> muda imagem de fundo
+background-position -> muda a posição
+
+Border
+
+border: largura estilo de linha cor da linha
+
+border-widht: 
+border-color
+border-style
+
+Font
+
+font-weight: altera o peso do texto
+font-size: tamanho do texto
+text-transform: uppercase (letras maiusculas), lowercase (letras minusculas) e capitalize (primeira letra maiuscula)
+
+Listas
+
+Modificar marcadores
+
+list-style-type: square (quadrado), upper-roman (algarismo romano)
+list-style-image: url(nome da imagem)
+
+Dimensão e alinhamento
+
+Wight: largura
+height: altura
+
+max-widht: largura máxima do elemento
+max-height: altura máxima do elemento
+Ps: eles vão se ajustar dependendo da situação
+
+margin: auto (alinha o elemeto automaticamente)
+text-align: (alinha o texto à esquerda, à direto, centro, justificado)

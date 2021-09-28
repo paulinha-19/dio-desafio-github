@@ -1,0 +1,37 @@
+Javascript é uma linguagem interpretada
+Tipagem fraca -> ex.: 5 + string
+Tipagem dinamica ->não especifica o tipo da var
+
+undefined -> var definada porém não foi atribuido nenhum valor a ela
+
+
+// escopo global
+
+{
+// escopo de bloco
+}
+
+//escopo função 
+
+função teste(){
+// escopo de bloco
+}
+
+PROPRIEDADE
+
+.length -> propriedade que retorna o comprimento da string
+Sintaxe-> str.length
+
+método split() remove o valor fornecido e coloca as substrings em um array e retorna o array.
+sintaxe -> str.split([separator[, limit]])
+
+
+tostring -> transforma número em string
+sintaxe -> numero.toString();
+
+toFixed -> retorna número com uma certa qtd de casas decimais
+sintaxe -> numero.toFixed(2).
+Ex.: 12.4032 vai ser retornado 12.40
+
+perseFloat -> transforma string em float
+parseInt -> transforma string em int
