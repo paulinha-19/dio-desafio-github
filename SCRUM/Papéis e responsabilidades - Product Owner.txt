@@ -1,0 +1,15 @@
+Product Owner (PO): Tem a visão do que será desenvolvido;
+O publico que vai utilizar o produto;
+Define as funcionalidades do software e
+explica ao time de desenvolvimento o que precisa ser feito;
+A ordem que as demandas serão desenvolvidas.
+
+Scrum Master (SM): Facilitador do PO, auxilia o time DEV
+
+TIme de desenvolvimento (DEV) - de 3 a 9 pessoas. Responsável 
+por entregar o software funcionando, tendo que possuir habilidades
+suficientes para desenvolver o projeto.
+
+
+
+

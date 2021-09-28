@@ -1,0 +1,3 @@
+SHA1 - algoritmo de hash seguro. É uma forma curta de representar um arquivo.
+
+Objetos interno do git - Blobs, commits, tree
