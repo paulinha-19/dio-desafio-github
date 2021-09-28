@@ -4,11 +4,11 @@ Criando Repositório no GitHub Para Compartilhar meu Progresso no bootcamp Eduzz
 
 ## Atividades do bootcamp
 - Mentorias
-- Projetos ágeis com SCRUM
-- Lógica de Programação Essencial
-- Introdução ao Git e ao GitHub
-- Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso
-- Introdução a criação de websites com HTML5 e CSS3
+- Projetos ágeis com SCRUM ✔️
+- Lógica de Programação Essencial ✔️
+- Introdução ao Git e ao GitHub ✔️
+- Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso ✔️
+- Introdução a criação de websites com HTML5 e CSS3 ✔️
 - JavaScript ES6 essencial
 - Desenvolvimento avançado com JavaScript ES6
 - Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
