@@ -1,0 +1,19 @@
+Considerando o exemplo a seguir:
+
+const filmes = ['Meia-noite em Paris', 'Machete', 'Taxi Driver', 'Matrix']
+
+Assinale abaixo a estrutura de repetição correta que poderia listar os filmes da lista.
+
+
+for (let filme of filmes)
+
+
+Analise o código abaixo e selecione a alternativa que possui as formas possíveis de se remover o item "acerola" alterando o array "frutas":
+
+const frutas = ["melancia", "laranja", "acerola"];
+
+frutas.splice(2,1) e frutas.pop()
+
+
+Qual comando deve ser usado para que o objeto não sofra mudança sob nenhuma circunstância?
+object.freeze()

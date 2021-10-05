@@ -1,0 +1,4 @@
+sort
+reverse (inverte o sentido do array)
+join
+reduce (intera cada posição e retorna um novo tipo de dados)

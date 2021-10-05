@@ -1,0 +1,10 @@
+
+
+classe, instância, static.
+
+
+Design patterns
+
+-singleton
+
+

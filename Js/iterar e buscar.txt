@@ -1,0 +1,17 @@
+.forEach (interar elementos do array)
+.map (retorna novo array sem modificar o array principal)
+.flat
+.flatMap
+.keys
+.values
+.entries
+.find
+.findIndex
+.filter (retorna um array com todos os itens)
+.indexOf
+.includes (se o array tem o item)
+.some (se pelo menos um item satisfaz a condição)
+.every(se todos os itens satisfazem a condição)
+
+
+

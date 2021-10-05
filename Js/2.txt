@@ -1,0 +1,51 @@
+function nome(){
+return true;
+}
+
+const nome = () => {
+true
+}
+
+ARRAY-VETOR
+
+ex.: array
+const nome = ["paula","carlos"];
+
+const genero ={
+man: symbol('m'),
+woman: symbol ('w')
+}
+
+
+ex.: array de objeto
+
+const pessoas = [
+{
+nome:'paula',
+idade:23,
+genero: genero.man
+},
+
+{
+nome:'paulo',
+idade:23,
+genero: genero.woman
+},
+
+{
+nome:'paulo',
+idade:23,
+genero: genero.man
+}
+];
+
+PROPRIEDADES E FUNÇÔES
+filter, lenght, forEach, map, reduce,sprend, delete, in
+
+Laços de repetição
+
+while - executa se a cond. for verdadeira
+do...while - exucta uma pelo menos 1 vez
+for in e for off
+continue
+
