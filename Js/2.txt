@@ -39,8 +39,107 @@ genero: genero.man
 }
 ];
 
+PERCORRER VETOR SEM METÓDO
+
+const nomes = ['Whinds', 'Freeway', 'Teste', 'Maria'];
+
+for(let i = 0; i < nomes.length; i = i + 1 ) {
+    console.log('[for]', nomes[i]);
+}
+
 PROPRIEDADES E FUNÇÔES
-filter, lenght, forEach, map, reduce,sprend, delete, in
+lenght => retorna o tamanho da string.
+
+
+forEach => Percorre todos os itens de um array (um por um) isso porque internamente ele possui um loop for.
+Permite executar uma função para cada item de um array. 
+Sempre que você for fazer um loop for vale mais a pena usar um forEach
+ex.:
+
+let nomes = ['maria', 'josé', 'joão'];
+nomes.forEach(function(nome,indice) {
+  console.log(nome,indice);
+});
+
+
+map => Percorre todos os itens de um array (um por um) e realiza modificações nos itens. Retorna um novo array.
+Internamente ele possui um loop for e Permite executar uma função para cada item de um array. 
+ex.:
+
+const nomes = ['Whinds', 'Freeway', 'Teste', 'Maria'];
+nomes.map(function(nome){
+console.log("Antes da alteração", nome);
+  return console.log("Depois da alteração:",nome.toUpperCase());
+});
+
+const numeros = [1,2,3,4,5];
+numeros.map(function(numero,indice){
+console.log("Antes da alteração", "numero ", numero,"indice ",indice);
+  return console.log("Depois da alteração:", "numero ",numero*2,"indice ",indice);
+});
+ 
+const numeros = [1,2,3,4,5];
+const dobro = numeros.map(function(numero) {
+  return numero * 2;
+});
+
+console.log("Antes da alteração:",numeros); // Resultado 1: [ 1, 2, 3 ]
+console.log("Depois da alteração:",dobro); // Resultado 2: [ 2, 4, 6 ]
+
+
+filter => percorre o array e filtra os elementos do Array de acordo com a condição especificada
+pela função callback. O resultado é armazenada em uma nova variável do tipo array.
+Portanto, o resultado será o de todos os elementos que satisfaçam a condição do filtro. 
+Vale ressaltar que a array original não sofre nenhum tipo de alteração pelo método filter().
+
+sintaxe do método filter() =>
+var novaArray = arrayOriginal.filter(function(valorAtual, indice, varArray), thisArgumento))
+
+ex1.: 
+let produtos = [ 
+  {nome: 'Coca Cola', preco: 5}, 
+  {nome: 'Pizza', preco: 15}, 
+  {nome: 'Kinder Ovo', preco: 99} 
+];
+
+let produtosBaratos = produtos.filter(function(produto) {
+  return produto.preco < 20;
+});
+console.log(produtosBaratos);
+
+COM ARROW FUNCTION
+var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var numerosPares = numeros.filter(pares => (pares %2)== 0);
+console.log(retorno);
+
+SEM ARROW FUNCTION
+var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function buscarNumerosPares (value) {
+    if (value % 2 == 0) 
+    return value;
+}
+var numerosPares = numeros.filter(buscarNumerosPares);
+console.log(numerosPares);
+
+ex2.:
+SEM ARROW FUNCTION
+var estados = ["São Paulo", "Minas Gerais", "Rio de Janeiro", "Rio Grande do Norte", "Santa Catarina", "Acre"];
+function retornaEstado (value){
+    if (value.charAt(0) == "S") 
+    return value;
+}
+var resultado = estados.filter(retornaEstado);
+console.log(resultado);
+
+COM ARROW FUNCTION
+var estados = ["São Paulo", "Minas Gerais", "Rio de Janeiro", "Rio Grande do Norte", "Santa Catarina", "Acre"];
+var resultado = estados.filter( estadosComS  => (estadosComS.charAt(0) == "S"));
+console.log(resultado);
+﻿
+﻿
+
+	
+reduce,sprend, delete, in
 
 Laços de repetição
 
