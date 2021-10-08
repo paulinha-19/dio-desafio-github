@@ -1,0 +1,57 @@
+sort => ordena os elementos
+(a - b): ordena de forma crescente, do menor para o maior;
+(b - a): ordena de forma decrescente, do maior para o menor;
+
+ex.:
+const pessoas = [
+  {
+    name: "Maria",
+    age: 30
+  },
+  {
+    name: "Joaquim",
+    age: 53
+  },
+  {
+    name: "Marcos",
+    age: 18
+  }
+];
+
+var sort= pessoas.sort(function(a, b) {
+  return a.age - b.age; // ordena de forma crescente
+});
+
+//output: 
+[
+{ name: "Marcos", age: 18 },
+{ name: "Maria", age: 30 },
+{ name: "Joaquim", age: 53 }
+]
+
+//Nota
+return -1 ou 0: O array fica como está, não altera a ordem;
+return 1: O array é invertido;
+
+console.log(sort);
+
+Para ordenar pelo nome usando sort podemos fazer:
+const pessoas = [
+  {
+    name: "Maria",
+    age: 30
+  },
+  {
+    name: "Joaquim",
+    age: 53
+  },
+  {
+    name: "Marcos",
+    age: 18
+  }
+];
+
+var sortNome=pessoas.sort(function(a, b) {
+  return a.name.localeCompare(b.name); // Ordena de forma crescente
+});
+console.log(sortNome);

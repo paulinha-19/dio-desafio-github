@@ -1,0 +1,102 @@
+function nome(){
+return true;
+}
+
+const nome = () => {
+true
+}
+
+ARRAY-VETOR
+
+ex.: array
+const nome = ["paula","carlos"];
+
+const genero ={
+man: symbol('m'),
+woman: symbol ('w')
+}
+
+ARRAY BIDIMENSIONAL
+var array = [
+  ["João", "Souza", 20, "Direito"],
+["Maria", "Gonçalves", 21, "Medicina"]
+]
+console.log(array);
+
+var arrayBidimensionalLiteral = [];
+arrayBidimensionalLiteral[0] = ["João", "Souza", 20, "Direito"];
+arrayBidimensionalLiteral[1] = ["Maria", "Gonçalves", 21, "Medicina"];
+console.log(arrayBidimensionalLiteral);
+
+
+ex.: array de objeto
+
+const pessoas = [
+{
+nome:'paula',
+idade:23,
+genero: genero.man
+},
+
+{
+nome:'paulo',
+idade:23,
+genero: genero.woman
+},
+
+{
+nome:'paulo',
+idade:23,
+genero: genero.man
+}
+];
+
+Obs: o tipo objeto é utilizado quando queremos armazenar mais de uma característica de um mesmo elemento.
+
+PERCORRER VETOR SEM METÓDO
+
+const nomes = ['Whinds', 'Freeway', 'Teste', 'Maria'];
+
+for(let i = 0; i < nomes.length; i = i + 1 ) {
+    console.log('[for]', nomes[i]);
+}
+
+PROPRIEDADES E FUNÇÔES
+lenght => retorna o tamanho da string.
+
+
+
+sprend, delete
+
+Laços de repetição
+
+for =>  loop for é utilizado para a repetição de estruturas incrementais, ou seja, 
+em que são adicionados ou diminuídos valores a um índice. 
+Por isso, uma das suas aplicações é para a leitura de variáveis do tipo array.
+
+for ( [expressão inicial]; [expressão condicional]; [atualização da expressão inicial] ) {
+	// um ou vários comandos a serem executados //
+	declaração;
+}
+﻿
+for (let i=1; i<=10; i++)  {
+	console.log(i);
+}
+
+for/in
+O for/in é utilizado para acessar as propriedades de um objeto
+
+for (variável in objeto) {
+	//executar bloco de código
+}
+
+for/of
+for ( variável of iterável) {
+	//	Executar bloco de códigos
+}
+﻿
+
+while - executa se a cond. for verdadeira
+do...while - exucta uma pelo menos 1 vez
+continue
+

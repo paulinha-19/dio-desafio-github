@@ -1,0 +1,108 @@
+criar array 
+ex.: array, array.of ou array.from
+
+Inserir e remover elementos
+
+push=>O método push() adiciona um novo elemento no final do array.
+
+ex.:
+const pessoas = ["Maria", "Joaquim", "Marcos"];
+console.log("Antes de adicionar elemento com push:",pessoas);
+pessoas.push("João");
+console.log("Depois de adicionar elemento com push:",pessoas);
+const pessoas = ["Maria", "Joaquim", "Marcos"];
+pessoas.push("João");
+
+
+pop=> remove um elemento do final do array
+
+ex.:
+const pessoas = ["Maria", "Joaquim", "Marcos"];
+console.log("Antes de remover elemento com pop:",pessoas);
+pessoas.pop();
+console.log("Depois de remover elemento com pop:",pessoas);
+
+unshift=> adiciona um elemento no início do array.
+
+ex.:
+const pessoas = ["Maria", "Joaquim", "Marcos"];
+console.log("Antes de adicionar elemento do inicio com unshift:",pessoas);
+pessoas.unshift("Paula");
+console.log("Depois de adicionar elemento do inicio com unshift:",pessoas);
+
+//RESULTADO
+"Antes de adicionar elemento no inicio com unshift:" // [object Array] (3)
+["Maria","Joaquim","Marcos"]
+"Depois de adicionar elemento no inicio com unshift:" // [object Array] (4)
+["Paula","Maria","Joaquim","Marcos"]
+
+shift=> remove um elemento do início do array.
+
+ex.:
+const pessoas = ["Maria", "Joaquim", "Marcos"];
+console.log("Antes de remover elemento do inicio com unshift:",pessoas);
+pessoas.shift();
+console.log("Depois de remover elemento do inicio com unshift:",pessoas);
+
+//RESULTADO
+"Antes de remover elemento do inicio com unshift:" // [object Array] (3)
+["Maria","Joaquim","Marcos"]
+"Depois de remover elemento do inicio com unshift:" // [object Array] (2)
+["Joaquim","Marcos"]
+
+splice => remove, adiciona ou substitui um ou mais elementos em uma determinada posição do array.
+
+// Remove
+const pessoas = ["Maria", "Joaquim", "Marcos"];
+console.log(pessoas.splice(1, 2)); // posição 1, remove 
+console.log(pessoas);
+
+// removidos
+["Joaquim","Marcos"]
+
+// resultado
+["Maria"]
+
+// Adiciona
+const pessoas = ["Maria", "Joaquim", "Marcos"];
+console.log(pessoas.splice(1, 0, "Marcia", "Paulo")); // posição 1, remove nenhum, adiciona "Marcia" e "Paulo"
+console.log(pessoas);
+
+// removido
+[]
+
+// resultado
+["Maria","Marcia","Paulo","Joaquim","Marcos"]
+
+// Substitui
+const pessoas = ["Maria", "Marcia", "Paulo", "Marcos"];
+console.log(pessoas.splice(1, 2, "Joaquim")); // posição 1, remove 2, adiciona "Joaquim"
+console.log(pessoas);
+
+// removido
+["Marcia","Paulo"]
+
+// resultado
+["Maria","Joaquim","Marcos"]
+
+slice => retorna os elementos selecionados em uma array a partir de um valor inicial até o final-1 
+
+ex.:
+const fruits = ["Banana", "Orange", "Lemon"];
+
+console.log(fruits.slice(0,2));
+// [object Array] (2)
+["Banana","Orange"]
+
+concat=> Junta/concatena duas strings
+
+ex.: 
+let str1 = "Hello ";
+let str2 = "world!";
+console.log(str1.concat(str2));
+
+//
+"Hello world!"
+
+
+

@@ -1,55 +1,13 @@
-function nome(){
-return true;
-}
-
-const nome = () => {
-true
-}
-
-ARRAY-VETOR
-
-ex.: array
-const nome = ["paula","carlos"];
-
-const genero ={
-man: symbol('m'),
-woman: symbol ('w')
-}
-
-
-ex.: array de objeto
-
-const pessoas = [
-{
-nome:'paula',
-idade:23,
-genero: genero.man
-},
-
-{
-nome:'paulo',
-idade:23,
-genero: genero.woman
-},
-
-{
-nome:'paulo',
-idade:23,
-genero: genero.man
-}
-];
-
-PERCORRER VETOR SEM METÓDO
-
-const nomes = ['Whinds', 'Freeway', 'Teste', 'Maria'];
-
-for(let i = 0; i < nomes.length; i = i + 1 ) {
-    console.log('[for]', nomes[i]);
-}
-
-PROPRIEDADES E FUNÇÔES
-lenght => retorna o tamanho da string.
-
+.flat
+.flatMap
+.keys
+.values
+.entries
+.findIndex
+.indexOf
+.includes (se o array tem o item)
+.some (se pelo menos um item satisfaz a condição)
+.every(se todos os itens satisfazem a condição)
 
 forEach => Percorre todos os itens de um array (um por um) isso porque internamente ele possui um loop for.
 Permite executar uma função para cada item de um array. 
@@ -135,16 +93,76 @@ COM ARROW FUNCTION
 var estados = ["São Paulo", "Minas Gerais", "Rio de Janeiro", "Rio Grande do Norte", "Santa Catarina", "Acre"];
 var resultado = estados.filter( estadosComS  => (estadosComS.charAt(0) == "S"));
 console.log(resultado);
-﻿
-﻿
 
-	
-reduce,sprend, delete, in
+ex.3: 
+var produtos = [
+    {id: 1, descricao: "Smartphone", categoria: "Eletrônico"},
+    {id: 2, descricao: "Notebook", categoria: "Eletrônico"},
+    {id: 3, descricao: "Geladeira", categoria: "Eletrodoméstico"},
+    {id: 4, descricao: "Liquidificador", categoria: "Eletrodoméstico"},
+    {id: 5, descricao: "Fogão", categoria: "Eletrodoméstico"}
+]
+function retornaEletronico (value){
+    if (value.categoria == "Eletrônico")
+    return value;
+}
+var produtosEletronico = produtos.filter(retornaEletronico);
+//poderia não ter essa linha de código que o resultado seria o mesmo
+produtosEletronico.forEach(produtoEletro => { 
+    console.log(produtoEletro);
+});
 
-Laços de repetição
+var produtosEletronico = produtos.filter(retornaEletronico);
+console.log(produtosEletronico);
 
-while - executa se a cond. for verdadeira
-do...while - exucta uma pelo menos 1 vez
-for in e for off
-continue
+ex4.:
+O resultado é desenvolvido com arrow function e seleciona os produtos que sejam da categoria eletrodomésticos.
+O valores inválidos e nulos não são retornados.
 
+FONTE: BETRYBE - TUTORIAIS - JAVASCRIPT
+
+var produtos = [
+    {id: 1, descricao: "Smartphone", categoria: "Eletrônico"},
+    {id: 2, descricao: "Notebook", categoria: "Eletrônico"},
+    {id: 3, descricao: "Geladeira", categoria: "Eletrodoméstico"},
+    {id: 4, descricao: "Liquidificador", categoria: "Eletrodoméstico"},
+    {id: 5, descricao: "Fogão", categoria: "Eletrodoméstico"} 
+]
+var produtosEletrodomestico = produtos.filter(produto => produto.categoria == "Eletrodoméstico");
+produtosEletrodomestico.forEach(produto => { 
+    console.log(produto);
+});
+
+Find=> O método find ajuda você a encontrar um item específico dentro de um Array de acordo com algum critério 
+de busca.
+Por exemplo encontrar o nome paula
+
+ex1.:
+let nomes = [ 
+  {nome: 'paula', idade: 23}, 
+  {nome: 'joão', idade: 25}, 
+  {nome: 'maria', idade: 10} 
+];
+
+let nome = nomes.find(function(nome) {
+  return nome.nome === 'paula';
+});
+console.log(nome);
+
+reduce => O reduce é muito útil quando precisamos pegar todos os elementos de um Array e reduzi-los a um único valor.
+Quando queremos somar todos os valores de uma lista de números.
+
+ex1.: 
+SEM ARROW FUNCTION
+var numeros = [1, 2, 3, 4, 5, 6];
+var total = numeros.reduce(function(total, numero){
+0return total + numero;
+}, 0);
+console.log(total);
+
+var numeros = [1, 2, 3, 4, 5, 6];
+var total = numeros.reduce((total, numero) => total + numero, 0);
+console.log(total);
+
+https://warcontent.com/metodos-arrays-javascript/
+https://blog.betrybe.com/desenvolvimento-web/
