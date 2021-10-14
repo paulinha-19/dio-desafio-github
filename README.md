@@ -2,6 +2,10 @@
 
 Criando Repositório no GitHub Para Compartilhar meu Progresso no bootcamp Eduzz Fullstack Developer
 
+<p align="center">
+  <img src="https://hermes.digitalinnovation.one/tracks/4b31603d-4691-42bb-b588-415285a592a5.png" alt="Eduzz Fullstack Developer" tittle="Eduzz Fullstack Developer">
+</p>
+
 ## Atividades do bootcamp
 - Mentorias
 - Projetos ágeis com SCRUM ✔️
