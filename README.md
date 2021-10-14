@@ -1,4 +1,4 @@
-# Desafio DIO - git/github
+# Bootcamp DIO- Eduzz
 
 Criando Repositório no GitHub Para Compartilhar meu Progresso no bootcamp Eduzz Fullstack Developer
 
