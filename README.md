@@ -23,3 +23,8 @@ Criando Repositório no GitHub Para Compartilhar meu Progresso no bootcamp Eduzz
 - Criando aplicações móveis multiplataforma com React Native
 - Desafios Básicos em JavaScript
 - Desafios Básicos em JavaScript
+
+### Jogo de memória estilo Genius
+Nesse projeto, o desafio será criar um jogo Gênesis utilizando apenas HTML, CSS e Javascript de forma introdutória, sendo o principal conceito, CSS Grid, manipulação de Array e Arrow Functions.
+
+Bootcamp Eduzz Fullstack Developer da [Digital Innovation One](https://digitalinnovation.one/).
