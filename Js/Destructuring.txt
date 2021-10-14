@@ -1,0 +1,6 @@
+var obj ={
+name:"paula"
+}
+
+var {name} = obj;
+console.log(name);

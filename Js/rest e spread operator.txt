@@ -1,0 +1,1 @@
+spread operator => utilizado em strings, arrays, literal objects e objetos iteraveis

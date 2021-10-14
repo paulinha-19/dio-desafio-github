@@ -1,0 +1,24 @@
+Testes
+
+Testes automatizados
+
+- teste unitarios
+- testes integrados
+- teste funcionais
+
+Testes manuais e automatizados
+
+-teste usabilidade;
+testes de aceitaão do usuário;
+-protótipos
+-testes funcionais
+
+Ferramentas de testes
+- teste de carga e performace;
+-teste de segurança
+
+
+TDD => consiste em tetear e refatorar em pequenos ciclos onde você escreve o teste antes
+do código
+
+BDD => tecnica de desenvolvimento ágil que visa integrar regras com linguagens de programação

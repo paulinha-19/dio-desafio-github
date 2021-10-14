@@ -1,0 +1,11 @@
+fetch => faz requisição e usa promises
+
+
+async/await
+
+eventEmitter
+
+
+throw new Error
+
+then

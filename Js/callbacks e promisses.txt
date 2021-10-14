@@ -1,0 +1,7 @@
+Programação assicrona
+
+callback
+promises
+
+try, catch
+then, catch

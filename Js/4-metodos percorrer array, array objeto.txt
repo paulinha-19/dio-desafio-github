@@ -1,8 +1,16 @@
 .flat
 .flatMap
-.keys
-.values
-.entries
+
+3 métodos simples e bem úteis para acessar diretamente chaves (keys) e valores (values) de um objeto ou de um 
+array em JavaScript. São eles: Object.keys(), Object.values() e Object.entries().
+
+Obs1: É importante lembrar que em JavaScript tanto um objeto como um array são tipos de dados definidos como 
+objetos.
+
+.keys=> retorna um array de keys.
+.values=>  retorna uma array de values.
+.entries=> retorna uma array de pares de [key, value]
+
 .findIndex
 .indexOf
 .includes (se o array tem o item)
