@@ -2,7 +2,6 @@
 
 Criando Repositório no GitHub Para Compartilhar meu Progresso no bootcamp Eduzz Fullstack Developer da DIO.
 <p align="center">
-  <img src="https://hermes.digitalinnovation.one/assets/logos/minimized.png" alt="logo dio minimizada" tittle="logo dio minimizada">
   <img src="https://hermes.digitalinnovation.one/tracks/4b31603d-4691-42bb-b588-415285a592a5.png" alt="Eduzz Fullstack Developer" tittle="Eduzz Fullstack Developer" widht:100px; height:100px;>
 </p>
 
