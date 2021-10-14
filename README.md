@@ -4,7 +4,7 @@ Criando Repositório no GitHub Para Compartilhar meu Progresso no bootcamp Eduzz
 <img src="https://hermes.digitalinnovation.one/assets/logos/minimized.png" alt="alt="logo dio minimizada"" tittle="alt="logo dio minimizada"">
 
 <p align="center">
-  <img src="https://hermes.digitalinnovation.one/tracks/4b31603d-4691-42bb-b588-415285a592a5.png" alt="Eduzz Fullstack Developer" tittle="Eduzz Fullstack Developer" widht:100px; height: 100px;>
+  <img src="https://hermes.digitalinnovation.one/tracks/4b31603d-4691-42bb-b588-415285a592a5.png" alt="Eduzz Fullstack Developer" tittle="Eduzz Fullstack Developer">
 </p>
 
 ## Atividades do bootcamp
