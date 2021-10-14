@@ -9,12 +9,12 @@ Criando Repositório no GitHub Para Compartilhar meu Progresso no bootcamp Eduzz
 - Introdução ao Git e ao GitHub ✔️
 - Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso ✔️
 - Introdução a criação de websites com HTML5 e CSS3 ✔️
-- JavaScript ES6 essencial
-- Desenvolvimento avançado com JavaScript ES6
-- Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
-- Resolvendo Desafios de Código em Javascript
-- Desafios iniciais em JavaScript
-- Criando seu jogo de memória estilo Genius
+- JavaScript ES6 essencial✔️
+- Desenvolvimento avançado com JavaScript ES6✔️
+- Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces✔️
+- Resolvendo Desafios de Código em Javascript✔️
+- Desafios iniciais em JavaScript✔️
+- Criando seu jogo de memória estilo Genius✔️
 - Introdução ao ReactJS
 - Trabalhando com Componentes em React
 - Desenvolvimento de aplicações para internet com ReactJS
