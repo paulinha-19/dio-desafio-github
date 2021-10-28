@@ -18,14 +18,14 @@ Criando Repositório no GitHub Para Compartilhar meu Progresso no bootcamp Eduzz
 - Resolvendo Desafios de Código em Javascript✔️
 - Desafios iniciais em JavaScript✔️
 - Criando seu jogo de memória estilo Genius✔️
-- Introdução ao ReactJS
-- Trabalhando com Componentes em React
-- Desenvolvimento de aplicações para internet com ReactJS
-- Práticas avançadas em projetos com ReactJS
-- Introdução aos React Hooks
-- Criando aplicações móveis multiplataforma com React Native
-- Desafios Básicos em JavaScript
-- Desafios Básicos em JavaScript
+- Introdução ao ReactJS ✔️
+- Trabalhando com Componentes em React ✔️
+- Desenvolvimento de aplicações para internet com ReactJS ✔️
+- Práticas avançadas em projetos com ReactJS ✔️
+- Introdução aos React Hooks ✔️
+- Criando aplicações móveis multiplataforma com React Native ✔️
+- Desafios Básicos em JavaScript ✔️
+- Desafios Básicos em JavaScript ✔️
 
 ## Projetos desenvolvidos
 Do bootcamp Eduzz Fullstack Developer da [Digital Innovation One](https://digitalinnovation.one/).
